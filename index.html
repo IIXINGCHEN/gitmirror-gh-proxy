@@ -39,7 +39,7 @@
      <input type="text" class="form-control" id="githubScript" aria-describedby="basic-addon1" placeholder="例如 bash <(curl -L https://github.com/crazypeace/warp.sh/raw/main/warp.sh) 4" /> 
     </div> 
     <div class="input-group mb-3"> 
-     <button class="btn btn-primary" type="button" onclick="convertScript()" id="cvtBtn">转换脚本</button> 
+     <button class="btn btn-primary" type="button" onclick="convertScript()" id="cvtBtnScript">转换脚本</button> 
     </div> 
     <p>以下为转换后的一键脚本命令, 请在命令行中执行</p> 
     <label>只处理一层脚本中GitHub资源</label> 
@@ -64,7 +64,7 @@
      <input type="text" class="form-control" id="githubRes" aria-describedby="basic-addon1" placeholder="例如 https://github.com/crazypeace/warp.sh/raw/main/warp.sh" /> 
     </div> 
     <div class="input-group mb-3"> 
-     <button class="btn btn-primary" type="button" onclick="convertRes()" id="cvtBtn">转换资源</button> 
+     <button class="btn btn-primary" type="button" onclick="convertRes()" id="cvtBtnRes">转换资源</button> 
     </div> 
     <label>以下为转换后的链接</label> 
     <div class="input-group mb-3"> 
@@ -79,7 +79,7 @@
    <div class="card-body"> 
     <h5 class="card-title"></h5> 
     <div class="input-group mb-3"> 
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/F9re4Tuy7BA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe> 
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/F9re4Tuy7BA" title="GitHub Proxy 视频教程" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div> 
     <p>如果我的workers免费额度用完了, 你可以<a href="https://zelikk.blogspot.com/2023/06/gh-proxy-worker.html">自己在worker上搭gh-proxy.</a></p>
     <p>你也可以<a href="https://zelikk.blogspot.com/2022/05/domain-cloudflare-worker-dev.html">在worker上套自己的域名</a>解决国内访问的问题. </p> 
